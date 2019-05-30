@@ -11,7 +11,7 @@ This VM will be able to:
 2. Familiar command line for people used to Windows (Microsoft PowerShell) 
 3. Preconfigured and Up to Date.
 
-![Screenshot](https://github.com/stru-ca/Preconfigured-Linux-Server/Images/Screenshot.jpg)
+![Screenshot](https://github.com/stru-ca/Preconfigured-Linux-Server/raw/master/Images/Screenshot.jpg)
 
 To create your preconfigured / up to date Debian 9 VM, here are the instructions:
 1. Download Debian 9.9 64bit net Installer https://www.debian.org/distrib/netinst
