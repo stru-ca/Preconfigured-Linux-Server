@@ -40,6 +40,12 @@ ln -s /etc/network/interfaces /Environment/Settings/Network
 wget https://b.stru.ca/Commands/Version.ps1 -O /Environment/Commands/Version.ps1
 chmod +x /Environment/Commands/Version.ps1
 
+wget https://b.stru.ca/Commands/Restart.ps1 -O /Environment/Commands/Restart.ps1
+chmod +x /Environment/Commands/Restart.ps1
+
+wget https://b.stru.ca/Commands/Shutdown.ps1 -O /Environment/Commands/Shutdown.ps1
+chmod +x /Environment/Commands/Shutdown.ps1
+
 wget https://b.stru.ca/Commands/Update.ps1 -O /Environment/Commands/Update.ps1
 chmod +x /Environment/Commands/Update.ps1
 
@@ -49,3 +55,6 @@ chmod +x /Environment/Commands/Upgrade.ps1
 wget https://b.stru.ca/Commands/Delete-Old-Kernel.sh -O /Environment/Commands/Delete-Old-Kernel.sh
 chmod +x /Environment/Commands/Delete-Old-Kernel.sh
 
+
+apt-get -y update
+apt-get -y dist-upgrade
